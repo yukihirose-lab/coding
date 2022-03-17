@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mermaid
 ---
 
 ## ページの構成
