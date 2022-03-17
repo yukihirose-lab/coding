@@ -114,3 +114,10 @@ If you'd like to preview the theme locally (for example, in the process of propo
 ### Running tests
 
 The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+
+## NOTE
+
+1. SlateからPull
+2. Mermaid をDLして配置
+    1. 基本はincludesなどの書き換え[[参照](https://qiita.com/fumitoh/items/ff28e0720ab0ebc84e96)]
+    1. GitHub Pages の CI が通らないので落として使う [[参照](https://blog.a-1.dev/post/2019-06-16-mermaid/)]
