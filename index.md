@@ -12,6 +12,10 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 資料の種類
 
+- 統計
+- 実験
+- コーディング
+
 ```mermaid
 graph TD;
     A-->B;
