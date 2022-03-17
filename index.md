@@ -2,17 +2,33 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# ページの構成
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+## 資料の進め方
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+資料の種類
 
-# Header 1
+- 統計
+- 実験
+- コーディング
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+## 編集方法
+
+1. 資料を作成
+1. 資料を追加
+1. mermaid 記法
 
 ## Header 2
 
