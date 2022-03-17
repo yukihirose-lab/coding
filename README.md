@@ -121,3 +121,4 @@ The theme contains a minimal test suite, to ensure a site with the theme would b
 2. Mermaid をDLして配置
     1. 基本はincludesなどの書き換え[[参照](https://qiita.com/fumitoh/items/ff28e0720ab0ebc84e96)]
     1. GitHub Pages の CI が通らないので落として使う [[参照](https://blog.a-1.dev/post/2019-06-16-mermaid/)]
+    1. path はよく考える

@@ -26,6 +26,10 @@ graph TD;
 
 ## 編集方法
 
+1. 資料を作成
+1. 資料を追加
+1. mermaid 記法
+
 ## Header 2
 
 > This is a blockquote following a header.
