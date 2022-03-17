@@ -2,19 +2,24 @@
 layout: default
 ---
 
-# ページの構成
+## ページの構成
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+このウェブサイトでは広瀬ゼミで扱われた勉強会の資料のうち、
+許可が得られたものを体系化して公開していきます。
+扱うトピックは (i) 統計 (ii) 実験 (iii) コーディング の3つです。
+例として、統計ではANOVAレベルから一般化線形モデル、
+実験ではVWPやWeb実験、
+コーディングでは一般知識や管理方法を公開します。
 
-[Link to another page](./another-page.html).
+### 資料の進め方
 
-## 資料の進め方
+[統計](./stats).
+[実験](./experiments).
+[コーディング](./coding).
+
 
 資料の種類
 
-- 統計
-- 実験
-- コーディング
 
 ```mermaid
 graph TD;
