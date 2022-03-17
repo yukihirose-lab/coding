@@ -3,5 +3,5 @@ description: Slate is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
-baseurl: "/coding"
-url: "https://yukihirose-lab.github.io"
+# baseurl: ""
+url: "https://yukihirose-lab.github.io/coding"
