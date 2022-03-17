@@ -16,6 +16,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ## Mermaid
 
+
 ```mermaid
 graph TD;
     A-->B;
