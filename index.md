@@ -11,13 +11,66 @@ layout: mermaid
 実験ではVWPやWeb実験、
 コーディングでは一般知識や管理方法を公開します。
 
-### 資料の進め方
+このページでは全体を俯瞰した学習の手順と、
+このウェブサイトへ貢献する方法を記述します。
+基本的にはオープンサイエンスやオープンソースと同じ
+自由なアクセスをモットーにしているので、
+積極的なコミットをいただけると助かります。
+
+## 学習の手順
+
+### 統計
 
 [統計](./stats).
-[実験](./experiments).
-[コーディング](./coding).
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
-資料の種類
+### 実験
+
+[実験](./experiments).
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+### コーディング
+
+[コーディング](./coding).
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+## 貢献する方法
+
+### 資料作成
+### 資料追加(ウェブサイト)
+### 手順の更新(ウェブサイト)
+
+## 補足
+
+### なぜ GitHub Pagesか
+
+- Google Docs -> 資料に制限がある(動画や音源が使いづらい)
+- WordPress -> 管理面倒&使いづらい
+- GitHub Pages
+    - Gitが必要になるがオープンサイエンスの時代では
+      誰もが使えるようになるはずなので、
+      実質学習コストはゼロ
+    - 色々な記法が使える
+
+Mermaid
 
 ```mermaid
 graph TD;
@@ -27,19 +80,7 @@ graph TD;
     C-->D;
 ```
 
-## 編集方法
-
-1. 資料を作成
-1. 資料を追加
-1. mermaid 記法
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
+code
 
 ```js
 // Javascript code with syntax highlighting.
@@ -56,19 +97,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+itemize
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+num
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+table
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -77,25 +118,7 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
+nested list
 
 - level 1 item
   - level 2 item
@@ -111,32 +134,7 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
+images
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
