@@ -17,9 +17,7 @@ layout: mermaid
 [実験](./experiments).
 [コーディング](./coding).
 
-
 資料の種類
-
 
 ```mermaid
 graph TD;
