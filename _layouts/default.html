@@ -47,13 +47,6 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="../assets/mermaid.min.js" defer></script>
-    <script>
-       mermaid.initialize({
-           startOnLoad:true,
-           theme: 'default'
-       });
-       window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-    </script>
+    {% include mermaid.html %}
   </body>
 </html>
