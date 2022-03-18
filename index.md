@@ -32,17 +32,17 @@ layout: mermaid
 [RStudio Education][rstudio-intro]で紹介されていた資料と、
 統計の入門でよく使われている資料です。
 
-| Step | Title/URL                                        | Topic           | Prerequisites   | 
-|------|--------------------------------------------------|-----------------|-----------------|
-|    1 | [Getting Started with Data in R][r-rstudio]      | R               | N/A             |
-|    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA    | N/A             |
-|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm      | R, t検定, ANOVA |
-|    4 | [Rと統計の入門, 線形モデル][intro-k]             | R, lm, 言語学   | R               |
-|    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm          |                 |
-|    6 | [一般化線形混合モデル][glm2lme-k]                | R, glm, lme     |                 |
-|    7 | [Power Analysis][power-analysis]                 | power analysis  | LME             |
-|    8 | ggplotを用いた可視化(TBA)                        | paper           | stats           |
-|    9 | 論文へのまとめ方(TBA)                            | paper           | stats           |
+| Step | Title/URL                                        | Topic           | Prerequisites   | Open | 
+|------|--------------------------------------------------|-----------------|-----------------|------|
+|    1 | [Getting Started with Data in R][r-rstudio]      | R               | N/A             | True |
+|    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA    | N/A             | True |
+|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm      | R, t検定, ANOVA | True |
+|    4 | [Rと統計の入門, 線形モデル][intro-k]             | R, lm, 言語学   | R               | True |
+|    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm          |                 | True |
+|    6 | [一般化線形混合モデル][glm2lme-k]                | R, glm, lme     |                 | True |
+|    7 | [Power Analysis][power-analysis]                 | power analysis  | LME             | True |
+|    8 | ggplotを用いた可視化(TBA)                        | paper           | stats           | True |
+|    9 | 論文へのまとめ方(TBA)                            | paper           | stats           | True |
 
 [glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
 [power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
