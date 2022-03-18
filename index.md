@@ -100,6 +100,11 @@ graph TD;
 
 https://mermaid.live
 
+## 謝辞
+
+- 提供者
+- 東大
+
 ## 補足
 
 ### なぜ GitHub Pagesか
@@ -181,7 +186,3 @@ images
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-## 謝辞
-
-- 提供者
-- 東大
