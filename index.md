@@ -21,7 +21,6 @@ layout: mermaid
 
 ### 統計
 
-[統計](./stats).
 ```mermaid
 graph TD;
     A-->B;
@@ -30,27 +29,15 @@ graph TD;
     C-->D;
 ```
 
-### 実験
+<!--[統計](./stats).-->
 
-[実験](./experiments).
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+### 実験(TBA)
 
-### コーディング
+<!--[実験](./experiments)-->
 
-[コーディング](./coding).
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+### コーディング(TBA)
+
+<!--[コーディング](./coding)-->
 
 ## 貢献する方法
 
