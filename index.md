@@ -95,15 +95,15 @@ graph TD;
 
 ### 実験(TBA)
 
-<!--[実験](./experiments)-->
 | Step | Title/URL | Topic           | Prerequisites   | 
 |------|-----------|-----------------|-----------------|
 |    0 | VWP       | na              | na              |
 |    0 | 脳波      | na              | na              |
 
+<!--[実験](./experiments)-->
+
 ### プログラミング(TBA)
 
-<!--[プログラミング](./programming)-->
 | Step | Title/URL  | Topic           | Prerequisites   | 
 |------|------------|-----------------|-----------------|
 |    0 | Git/GitHub | na              | na              |
@@ -112,6 +112,8 @@ graph TD;
 |    0 | test       | na              | na              |
 |    0 | AWS        | na              | na              |
 |    0 | Python     | na              | na              |
+
+<!--[プログラミング](./programming)-->
 
 ## 貢献する方法
 
