@@ -27,10 +27,10 @@ layout: mermaid
 | Title/URL                                        | Topic          |
 |--------------------------------------------------|----------------|
 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm     |
-| [Power Analysis | 磯野真之介][power-analysis]    | power analysis |
+| [Power Analysis][power-analysis]                 | power analysis |
 | [Rと統計の入門, 線形モデル][intro-k]             | R, lm          |
 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm         |
-| [一般化線形混合モデル][glm2lme-k] |              | R, glm, lme    |
+| [一般化線形混合モデル][glm2lme-k]                | R, glm, lme    |
 
 [glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
 [power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
