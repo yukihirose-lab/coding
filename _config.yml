@@ -1,6 +1,6 @@
 title: 広瀬ゼミ勉強会資料置き場
 description: 公開の許可の取れた資料をメンテしながら配置します。
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
 # baseurl: ""
