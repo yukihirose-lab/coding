@@ -174,3 +174,7 @@ images
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
+## 謝辞
+
+- 提供者
+- 東大
