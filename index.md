@@ -21,22 +21,30 @@ layout: mermaid
 
 ### 統計
 
-内容は重複していますが、
-複数の資料を読むと理解が深まる部分もあるので掲載しています。
+内容は重複していますが、複数の資料を読むと理解が深まる部分もあるので掲載しています。
+`Prerequisites` には資料を読む前に知っておいたほうがよい事前知識を記載しており、
+部分的に外部の資料を含みます。特にStep1と2はそれぞれ
+[RStudio Education][rstudio-intro]で紹介されていた資料と、
+統計の入門でよく使われている資料です。
 
-| Title/URL                                        | Topic          |
-|--------------------------------------------------|----------------|
-| [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm     |
-| [Power Analysis][power-analysis]                 | power analysis |
-| [Rと統計の入門, 線形モデル][intro-k]             | R, lm          |
-| [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm         |
-| [一般化線形混合モデル][glm2lme-k]                | R, glm, lme    |
+| Step | Title/URL                                        | Topic           | Prerequisites   | 
+|------|--------------------------------------------------|-----------------|-----------------|
+|    1 | [Getting Started with Data in R][r-rstudio]      | t検定, ANOVA    | N/A             |
+|    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA    | N/A             |
+|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm      | R, t検定, ANOVA |
+|    4 | [Rと統計の入門, 線形モデル][intro-k]             | R, lm, 言語学   | R               |
+|    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm          |                 |
+|    6 | [一般化線形混合モデル][glm2lme-k]                | R, glm, lme     |                 |
+|    7 | [Power Analysis][power-analysis]                 | power analysis  | LME             |
 
 [glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
 [power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
 [intro-k]: https://kishiyamat.github.io/tutorial-lme-vwp/1.html
 [lm2glm-k]: https://kishiyamat.github.io/tutorial-lme-vwp/2.html
 [glm2lme-k]: https://kishiyamat.github.io/tutorial-lme-vwp/3.html
+[hamburger]: http://kogolab.chillout.jp/elearn/hamburger/
+[rstudio-intro]: https://education.rstudio.com/
+[r-rstudio]: https://moderndive.netlify.app/1-getting-started.html
 
 ```mermaid
 graph TD;
