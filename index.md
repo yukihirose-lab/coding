@@ -116,7 +116,7 @@ https://mermaid.live
 
 ## 補足
 
-### なぜ GitHub Pagesか
+### なぜ GitHub Pages?
 
 - Google Docs -> 資料に制限がある(動画や音源が使いづらい)
 - WordPress -> 管理面倒&使いづらい
@@ -146,25 +146,6 @@ var fun = function lang(l) {
   return true;
 }
 ```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-itemize
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-num
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
 
 table
 
