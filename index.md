@@ -37,6 +37,7 @@ layout: mermaid
 |    6 | [一般化線形混合モデル][glm2lme-k]                | R, glm, lme     |                 |
 |    7 | [Power Analysis][power-analysis]                 | power analysis  | LME             |
 
+
 [glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
 [power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
 [intro-k]: https://kishiyamat.github.io/tutorial-lme-vwp/1.html
@@ -45,6 +46,10 @@ layout: mermaid
 [hamburger]: http://kogolab.chillout.jp/elearn/hamburger/
 [rstudio-intro]: https://education.rstudio.com/
 [r-rstudio]: https://moderndive.netlify.app/1-getting-started.html
+
+* TODO
+    * 資料の追加
+    * フローチャートの作成
 
 ```mermaid
 graph TD;
