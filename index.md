@@ -21,6 +21,23 @@ layout: mermaid
 
 ### 統計
 
+内容は重複していますが、
+複数の資料を読むと理解が深まる部分もあるので掲載しています。
+
+| Title/URL                                        | Topic          |
+|--------------------------------------------------|----------------|
+| [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | R, lm, glm     |
+| [Power Analysis | 磯野真之介][power-analysis]    | power analysis |
+| [Rと統計の入門, 線形モデル][intro-k]             | R, lm          |
+| [線形モデル -> 一般化線形モデル][lm2glm-k]       | R, glm         |
+| [一般化線形混合モデル][glm2lme-k] |              | R, glm, lme    |
+
+[glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
+[power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
+[intro-k]: https://kishiyamat.github.io/tutorial-lme-vwp/1.html
+[lm2glm-k]: https://kishiyamat.github.io/tutorial-lme-vwp/2.html
+[glm2lme-k]: https://kishiyamat.github.io/tutorial-lme-vwp/3.html
+
 ```mermaid
 graph TD;
     A-->B;
@@ -47,7 +64,8 @@ graph TD;
 
 ### 資料追加(ウェブサイト)
 
-markdown
+- markdown
+- htmlはhiroselabのサーバーに配置
 
 ### 手順の更新(ウェブサイト)
 
