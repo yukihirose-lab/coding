@@ -73,10 +73,16 @@ graph TD;
 ### 実験(TBA)
 
 <!--[実験](./experiments)-->
+| Step | Title/URL | Topic           | Prerequisites   | 
+|------|-----------|-----------------|-----------------|
+|    0 | na        | na              | na             |
 
 ### コーディング(TBA)
 
 <!--[コーディング](./coding)-->
+| Step | Title/URL | Topic           | Prerequisites   | 
+|------|-----------|-----------------|-----------------|
+|    0 | na        | na              | na             |
 
 ## 貢献する方法
 
