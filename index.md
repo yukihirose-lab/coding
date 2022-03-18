@@ -39,7 +39,7 @@ layout: mermaid
 |------|--------------------------------------------------|-----------------  |-----------------|------|
 |    1 | [Getting Started with Data in R][r-rstudio]      | R                 | N/A             | True |
 |    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA      | N/A             | True |
-|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | `glm`, coding     | R, t検定, ANOVA | True |
+|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | `glm`, Coding     | R, t検定, ANOVA | True |
 |    4 | [Rと統計の入門, 線形モデル][intro-k]             | `lm`, `dataframe` | R               | True |
 |    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | `glm`             |                 | True |
 |    6 | [一般化線形混合モデル][glm2lme-k]                | `lme`             |                 | True |
@@ -49,6 +49,7 @@ layout: mermaid
 | Step | Title/URL                          | Topic           | Prerequisites   | Open | 
 |------|------------------------------------|-----------------|-----------------|------|
 |    0 | 細かい要因のコーディング           | TBA             | TBA             | True |
+|    0 | [Factor Coding][factor-coding]     | Coding          | Coding          | True |
 |    0 | [Power Analysis][power-analysis]   | TBA             | TBA             | True |
 |    0 | VWPデータ分析                      | TBA             | TBA             | True |
 |    0 | 脳波データデータ分析               | TBA             | TBA             | True |
@@ -56,6 +57,7 @@ layout: mermaid
 |    0 | ggplotを用いた可視化(TBA)          | TBA             | TBA             | True |
 |    0 | 論文へのまとめ方(TBA)              | TBA             | TBA             | True |
 
+[factor-coding]: https://github.com/CLRafaelR/factor_coding
 [glmm-ws-m]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/0907.html
 [power-analysis]: https://phiz.c.u-tokyo.ac.jp/~hiroselab/stats/220128_powerAnalysis_isono.html
 [intro-k]: https://kishiyamat.github.io/tutorial-lme-vwp/1.html
