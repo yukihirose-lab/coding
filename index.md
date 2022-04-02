@@ -16,15 +16,14 @@ layout: mermaid
 プログラミングでは一般知識や時代にあった管理方法を公開します。
 
 ウェブサイトの入り口であるこのページでは、
-全体を俯瞰した学習の手順と、
-このサイトへ貢献する方法を記述します。
+全体を俯瞰した[学習の手順](.#学習の手順)と、
+このサイトへ[貢献する方法](.#貢献の方法)を記述します。
 基本的にはオープンサイエンスやオープンソースと同じ
 「自由なアクセス[^free]」をモットーにしており、
 資料作成や共有といったコミットをいただけると助かります。
 GitHubを利用したページの公開が特色で、
 WordPressやサーバー、データベースなどの知識は
 編集に不要です。
-
 
 [^free]: お金がかからない、いつでもどこでもアクセスできる、
     著作権的に頒布できる、という意味での自由です。
@@ -38,34 +37,30 @@ WordPressやサーバー、データベースなどの知識は
 部分的に外部の資料を含みます。特にStep1と2はそれぞれ
 [RStudio Education][rstudio-intro]で紹介されていた資料と、
 統計の入門でよく使われている資料です。
-また `Open`列はアクセス権限が不要なら True, 必要なら False の値になっています。
 以下は基礎編になります。
 
-
-| Step | Title/URL                                        | Topic             | Prerequisites   | Open | 
-|------|--------------------------------------------------|-----------------  |-----------------|------|
-|    1 | [Getting Started with Data in R][r-rstudio]      | R                 | N/A             | True |
-|    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA      | N/A             | True |
-|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | `glm`, Coding     | R, t検定, ANOVA | True |
-|    4 | [Rと統計の入門, 線形モデル][intro-k]             | `lm`, `dataframe` | R               | True |
-|    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | `glm`             |                 | True |
-|    6 | [一般化線形混合モデル][glm2lme-k]                | `lme`             |                 | True |
-|    7 | [ベイズ統計(アヒル本)][ahiru]                    | TBA             | TBA             | True |
+| Step | Title/URL                                        | Topic             | Prerequisites   |
+|------|--------------------------------------------------|-----------------  |-----------------|
+|    1 | [Getting Started with Data in R][r-rstudio]      | R                 | N/A             |
+|    2 | [ハンバーガー統計学にようこそ！][hamburger]      | t検定, ANOVA      | N/A             |
+|    3 | [(G)LMMの入門・実践的 ワークショップ][glmm-ws-m] | `glm`, Coding     | R, t検定, ANOVA |
+|    4 | [Rと統計の入門, 線形モデル][intro-k]             | `lm`, `dataframe` | R               |
+|    5 | [線形モデル -> 一般化線形モデル][lm2glm-k]       | `glm`             |                 |
+|    6 | [一般化線形混合モデル][glm2lme-k]                | `lme`             |                 |
+|    7 | [ベイズ統計(アヒル本)][ahiru]                    | TBA             | TBA               |
 
 続いて発展編になります。
 
-| Step | Title/URL                          | Topic           | Prerequisites   | Open | 
-|------|------------------------------------|-----------------|-----------------|------|
-|    0 | [コーディング概要][contrastcoding] | TBA             | TBA             | True |
-|    0 | [Factor Coding 詳細][factor-coding]| Coding          | Coding          | True |
-|    0 | [Power Analysis][power-analysis]   | TBA             | TBA             | True |
-|    0 | [VWPデータ分析][arai]              | TBA             | TBA             | True |
-|    0 | 脳波データデータ分析(TBA)          | TBA             | TBA             | True |
-|    0 | Permutation Analysis(TBA)          | TBA             | TBA             | True |
-|    0 | [ggplotを用いた可視化][ggplot]     | TBA             | TBA             | True |
-|    0 | 論文での報告手順(TBA)              | TBA             | TBA             | True |
-|    0 | オンラインWeb実験(TBA)             | TBA             | TBA             | True |
-|    0 | Gitを用いたスクリプト管理(TBA)     | TBA             | TBA             | True |
+| Step | Title/URL                          | Topic           | Prerequisites   |
+|------|------------------------------------|-----------------|-----------------|
+|    0 | [コーディング概要][contrastcoding] | TBA             | TBA             |
+|    0 | [Factor Coding 詳細][factor-coding]| Coding          | Coding          |
+|    0 | [Power Analysis][power-analysis]   | TBA             | TBA             |
+|    0 | [VWPデータ分析][arai]              | TBA             | TBA             |
+|    0 | 脳波データデータ分析(TBA)          | TBA             | TBA             |
+|    0 | Permutation Analysis(TBA)          | TBA             | TBA             |
+|    0 | [ggplotを用いた可視化][ggplot]     | TBA             | TBA             |
+|    0 | 論文での報告手順(TBA)              | TBA             | TBA             |
 
 今後全てをカバーできるとは限りませんが、
 新学期が始まる頃をメドにアンケートなどを通じて優先順位をつけ、
@@ -76,6 +71,7 @@ WordPressやサーバー、データベースなどの知識は
 FIXME: 
 - [ ] 脳波は陳さんの脳波祭
 - [ ] Permutation Analysis
+- [ ] Mermaidを使ったフローチャートの作成
 -->
 [ggplot]: https://ggplot2.tidyverse.org/reference/ggplot.html
 [ahiru]: https://www.kyoritsu-pub.co.jp/bookdetail/9784320112421
@@ -91,119 +87,72 @@ FIXME:
 [rstudio-intro]: https://education.rstudio.com/
 [r-rstudio]: https://moderndive.netlify.app/1-getting-started.html
 
+<!--[統計](./stats)-->
+
+<!--
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
 ```
+-->
 
-<!--[統計](./stats).-->
 
 ### 実験(TBA)
 
-| Step | Title/URL | Topic           | Prerequisites   | 
-|------|-----------|-----------------|-----------------|
-|    0 | VWP       | na              | na              |
-|    0 | 脳波      | na              | na              |
+| Step | Title/URL                     | Topic           | Prerequisites   | 
+|------|-------------------------------|-----------------|-----------------|
+|    0 | VWP                           | na              | na              |
+|    0 | 脳波                          | na              | na              |
+|    0 | 音声                          | na              | na              |
+|    0 | オンラインWeb実験             | TBA             | TBA             |
 
 <!--[実験](./experiments)-->
 
 ### プログラミング(TBA)
 
-| Step | Title/URL  | Topic           | Prerequisites   | 
-|------|------------|-----------------|-----------------|
-|    0 | Git/GitHub | na              | na              |
-|    0 | linter     | na              | na              |
-|    0 | renv       | na              | na              |
-|    0 | test       | na              | na              |
-|    0 | AWS        | na              | na              |
-|    0 | Python     | na              | na              |
+| Step | Title/URL                       | Topic           | Prerequisites   | 
+|------|---------------------------------|-----------------|-----------------|
+|    0 | Gitを用いたスクリプト管理       | TBA             |     TBA         |
+|    0 | 開発基礎（仮想環境、テスト、CI）| na              |     TBA         |
+|    0 | 外部計算資源活用（AWS）         | na              |     TBA         |
 
 <!--[プログラミング](./programming)-->
 
-## 貢献する方法
+## 貢献の方法
 
-### 資料作成
+ここでいう「貢献」というのは、
+「みんなでアプリケーションを作ろうよ」
+というオープンソースの精神に基づいています。
+ここではアプリケーションではなく、
+研究に必要な資料をみんなで作ることを目的としています。
+オープンにプロジェクトをすすめるのは
+アプリだけでなく書籍（技術書や小説）や研究の文脈の
+文脈でも活発になってきています。
 
-よしなに
+問題として、みんなで編集して公開する
+というのは言うほど簡単ではなく、
+そもそもなんでGoogle DocsやDriveに資料を配置してしまっては
+変な変更が入ってしまうリスクがあり、
+そのリスクを減らそうとすると
+編集できる権限を絞る必要がでてきます。
+ここらへんは情報セキュリティの
+機密性--完全性--可用性トレードオフですね。
 
-### 資料追加(ウェブサイト)
+この問題に対してソフトウェア開発はかなり有効な手段を持っていて、
+それがGitを用いた分散バージョン管理システムです。
+Gitを使ってもらうのは学習コストが高い気もするのですが、
+WordPressなどの学習コストに比べれば微々たるものだと思います。
+もし協力していただける場合、
+以下のサイトを参考にしてまずは
+本ファイル、`index.md` にあなたの名前を追加するところから
+初めていただけると嬉しいです。
 
-- markdown
-- htmlはhiroselabのサーバーに配置
-
-### 手順の更新(ウェブサイト)
-
-https://mermaid.live
+https://github.com/firstcontributions/first-contributions
 
 ## 謝辞
 
-- 提供者
-- 東大
+- 東大オンキャンパスジョブ
 
-## 補足
+## Contributors
 
-### 協力の仕方
-
-なぜ GitHub Pages?
-
-- Google Docs -> 資料に制限がある(動画や音源が使いづらい)
-- WordPress -> 管理面倒&使いづらい
-- GitHub Pages
-    - Gitが必要になるがオープンサイエンスの時代では
-      誰もが使えるようになるはずなので、
-      実質学習コストはゼロ
-    - 色々な記法が使える
-    - 各所の学会やブログで採用実績あり
-
-Mermaid
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-code
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-table
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-nested list
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-images
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- 岸山健
 
