@@ -153,7 +153,8 @@ Gitを使ってもらうのは学習コストが高い気もするのですが�
 WordPressなどの学習コストに比べれば微々たるものだと思います。
 もし協力していただける場合、
 [こちらのサイト](https://github.com/firstcontributions/first-contributions)を参考にし、
-`index.md` にあなたの名前を追加するところから
+このページ(`index.md`)の
+[Contributors](.#Contributors) にあなたの名前を追加するところから
 初めていただけると嬉しいです。
 
 ## Acknowledgement
@@ -164,7 +165,6 @@ WordPressなどの学習コストに比べれば微々たるものだと思い�
 
 - 岸山健
 - YourName
-
 
 ### 脚注
 ---
