@@ -1,7 +1,7 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
+title: 心理言語学の実験・分析ノート
+description: 公開可能な資料を体系化して共有、更新します。
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
 # baseurl: ""
-url: "https://yukihirose-lab.github.io/coding"
+url: "https://yukihirose-lab.github.io/notes"
