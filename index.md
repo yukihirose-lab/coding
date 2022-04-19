@@ -160,7 +160,7 @@ graph TD;
 もし協力していただける場合、
 [こちらのサイト](https://github.com/firstcontributions/first-contributions)を参考にし、
 このページ(`index.md`)の
-[Contributors](.#Contributors) にあなたの名前を追加するところから
+[Contributors](.#contributors) にあなたの名前を追加するところから
 初めていただけると嬉しいです。
 
 ## Acknowledgement
